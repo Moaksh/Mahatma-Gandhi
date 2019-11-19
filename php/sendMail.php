@@ -2,10 +2,9 @@
 
 include_once (dirname(dirname(__FILE__)) . '/config.php');
 
-//Initial response is NULL
+
 $response = null;
 
-//Initialize appropriate action and return as HTML response
 if (isset($_POST["action"])) {
     $action = $_POST["action"];
 
@@ -35,11 +34,8 @@ if (isset($response) && !empty($response) && !is_null($response)) {w
 
 function SendEmail($message, $subject, $from, $to) {
     $isSent = false;
-    // Content-type header
     $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-    // Additional headers
-    // $headers .= 'To: ' . $to . "\r\n";
     $headers .= 'From: ' . $from . "\r\n";
 
     mail($to, $subject, $message, $headers);
