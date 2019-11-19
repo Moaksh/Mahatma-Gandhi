@@ -354,7 +354,6 @@ sub
     margin: 0 0 14px 17px;
 }
 
-/* COLUMNS */
 
 .one,  .one_half,  .one_third,  .two_third,  .three_fourth, 
 .one_fourth{
@@ -423,11 +422,7 @@ sub
     padding: 0 !important;
 }
 
-/* MENU */
 
-/* Mobile first layout SmartMenus Core CSS (it's not recommended editing these rules)
-   You need this once per page no matter how many menu trees or different themes you use.
--------------------------------------------------------------------------------------------*/
 
 .sm,.sm ul,.sm li{display:block;list-style:none;margin:0;padding:0;line-height:normal;direction:ltr;-webkit-tap-highlight-color:rgba(0,0,0,0);}
 .sm-rtl,.sm-rtl ul,.sm-rtl li{direction:rtl;text-align:right;}
@@ -442,7 +437,6 @@ sub
 
 
 
-/* WP DEFAULT CLASSES */
 
 .alignnone {
     margin: 5px 20px 20px 0;
@@ -567,5 +561,5 @@ a img.aligncenter
     text-decoration: none;
     top: 5px;
     width: auto;
-    z-index: 100000; /* Above WP toolbar. */
+    z-index: 100000;
 }

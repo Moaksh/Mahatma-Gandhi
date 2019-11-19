@@ -1,10 +1,4 @@
-/* ------------------------------------------------------------------------
-        This you can edit.
-------------------------------------------------------------------------- */
 
-/* ----------------------------------
-        Default Theme
------------------------------------ */
 
 div.pp_default .pp_top,
 div.pp_default .pp_top .pp_middle,
@@ -18,7 +12,6 @@ div.pp_default .pp_bottom .pp_right { height: 13px; }
 div.pp_default .pp_content .ppt { color: #f8f8f8; }
 div.pp_default .pp_content_container .pp_left { padding-left: 13px; }
 div.pp_default .pp_content_container .pp_right { padding-right: 13px; }
-/*div.pp_default .pp_content { background-color: #fff; }*/
 div.pp_default .pp_next:hover { background: url(../images/prettyPhoto/default/sprite_next.png) center right  no-repeat; cursor: pointer; } /* Next button */
 div.pp_default .pp_previous:hover { background: url(../images/prettyPhoto/default/sprite_prev.png) center left no-repeat; cursor: pointer; } /* Previous button */
 div.pp_default .pp_expand { background: url(../images/prettyPhoto/default/sprite.png) 0 -29px no-repeat; cursor: pointer; width: 28px; height: 28px; } /* Expand button */
@@ -53,10 +46,6 @@ div.pp_default .pp_description{ font-size: 11px; font-weight: bold; line-height:
 
 div.pp_default .pp_loaderIcon { background: url(../images/prettyPhoto/default/loader.gif) center center no-repeat; background-color: white;} /* Loader icon */
 
-
-/* ----------------------------------
-        Light Rounded Theme
------------------------------------ */
 
 
 div.light_rounded .pp_top .pp_left { background: url(../images/prettyPhoto/light_rounded/sprite.png) -88px -53px no-repeat; } /* Top left corner */
@@ -132,10 +121,6 @@ div.dark_rounded .pp_bottom .pp_right { background: url(../images/prettyPhoto/da
 
 div.dark_rounded .pp_loaderIcon { background: url(../images/prettyPhoto/dark_rounded/loader.gif) center center no-repeat; } /* Loader icon */
 
-
-/* ----------------------------------
-        Dark Square Theme
------------------------------------ */
 
 div.dark_square .pp_left ,
 div.dark_square .pp_middle,

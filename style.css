@@ -62,7 +62,6 @@ body a:hover
 
 
 
-/* TOP MENU */
 
 .menu-wrapper
 {    
@@ -129,11 +128,6 @@ body a:hover
     color: #fff;
 }
 
-/* END TOP MENU */
-
-
-
-/* GENERAL SECTION */
 
 .section
 {    
@@ -209,7 +203,7 @@ body a:hover
     overflow: hidden;
     height: 100px;
     margin-top: -60px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 .section-content-holder .content-title
 {
@@ -219,7 +213,7 @@ body a:hover
     font-size: 100px;
     line-height: 100%;
     text-transform: uppercase;
-    margin-top: -45px;
+    margin-top: -50px;
     color: #221c5a;    
 }
 
@@ -248,11 +242,6 @@ body a:hover
     padding-bottom: 0;
 }
 
-/* END GENERAL SECTION */
-
-
-
-/* HOME SECTION */
 
 .intro-page 
 {
@@ -312,12 +301,6 @@ h1.big-title
     width: 100%;
 }
 
-/* END HOME SECTION */
-
-
-
-/* SERVICE SECTION */
-
 #services
 {
     background-color: #221c5a;
@@ -362,11 +345,7 @@ h1.big-title
     padding-bottom: 10px;
 }
 
-/* END SERVICE SECTION */
 
-
-
-/* PORTFOLIO SECTION */
 
 #portfolio
 {
@@ -548,12 +527,6 @@ div.pp_default .pp_loaderIcon
     display: none !important;
 }
 
-/* END PORTFOLIO SECTION*/
-
-
-
-/* ABOUT SECTION */
-
 #about
 {
     background-color: rgb(34, 28, 90); 
@@ -623,11 +596,6 @@ div.pp_default .pp_loaderIcon
 {
     width: 100%;
 }
-
-/* END ABOUT SECTION */
-
-
-/* NEWS SECTION */
 
 #news
 {
@@ -734,11 +702,7 @@ div.pp_default .pp_loaderIcon
     letter-spacing: 3px;    
 }
 
-/* END NEWS SECTION */
 
-
-
-/* VIDEO SECTION */
 
 #video
 {
@@ -791,13 +755,7 @@ a.video-popup-holder:hover img.popup-play
 {
     opacity: 1;
 }
-/* END VIDEO SECTION */
 
-
-
-
-
-/* SKILLS SECTION */
 
 
 #skills
@@ -871,12 +829,6 @@ a.video-popup-holder:hover img.popup-play
     width: 100%;
 }
 
-/* END SKILLS SECTION */
-
-
-
-
-/* CONTACT SECTION */
 
 #contact
 {
@@ -1052,11 +1004,6 @@ span.contact-form-not-valid-tip
     font-size: 10px;
 }
 
-/* END CONTACT SECTION */
-
-
-/* FOOTER */
-
 footer
 {
     background-color: #221C5A;
@@ -1093,11 +1040,9 @@ footer
     font-size: 20px;
 }
 
-/* END FOOTER */
 
 
 
-/* SINGLE PORTFOLIO PAGE */
 
 #portfolio-1
 {
@@ -1186,11 +1131,6 @@ footer
     font-size: 20px;
     line-height: 30px;
 }
-
-/* END SINGLE PORTFOLIO */
-
-
-/* RESPONSIVE PART */
 
 @media screen and (max-width: 1270px) {   
 
@@ -1603,7 +1543,7 @@ footer
 
     .main-menu ul 
     {
-        width: 12em; /* fixed width only please - you can use the "subMenusMinWidth"/"subMenusMaxWidth" script options to override this if you like */
+        width: 12em; 
     }
 
     .sm-clean a, .sm-clean a:hover, .sm-clean a:focus, .sm-clean a:active
